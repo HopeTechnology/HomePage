@@ -21,8 +21,7 @@
 }
 
 .logo {
-  width: 100px;
-  height: 100px;
+  width: 115px;
 }
 
 .card-body {
@@ -37,7 +36,7 @@
 }
 
 .card-body > p {
-  font-size: 20px;
+  font-size: 21px;
 }
 
 .card-footer {
@@ -49,10 +48,14 @@
 .icono {
   text-align: right;
   margin-top: 70px;
+  font-size: 35px;
 }
 
 .imagen {
+  position: relative;
+  top: 30px;
   text-align: right;
+
 }
 .card-footer a {
   color: white;

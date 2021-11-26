@@ -25,7 +25,7 @@ function App() {
           </div>
           <div className="card-body">
             <h1>Próximamente!</h1>
-            <p>En breve estaremos en línea. Seguinos en Instagram.</p>
+            <p>En breve estaremos en línea. Seguinos en Instagram</p>
           </div>
           <div className="card-footer">
             <div className="icono">
