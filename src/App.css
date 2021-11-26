@@ -55,7 +55,6 @@
   position: relative;
   top: 30px;
   text-align: right;
-
 }
 .card-footer a {
   color: white;
@@ -64,4 +63,44 @@
 .mascota {
   width: 200px;
   height: 200px;
+}
+
+@media (max-width: 768px) {
+  .card {
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px 40px 200px;
+    align-items: center;
+    justify-content: center;
+  }
+  .card-header {
+    text-align: center;
+    margin-left: 0px;
+  }
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .card-body > h1 {
+    font-size: 30px;
+  }
+  .card-body > p {
+    font-size: 15px;
+  }
+  .card-footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 15px;
+  }
+  .icono {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 25px;
+  }
+  .imagen {
+    display: none;
+  }
+  .card-footer a {
+    color: white;
+  }
 }
